@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>The Way Free Medical Clinic</h1>
+    <p class="lead">Volunteer Management System</p>
+    <p><a href="http://thewayclinic.org/" class="btn btn-primary btn-lg">Learn more about us &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Volunteer Time Management</h2>
+        <p>
+            Clock-in and clock-out from the system. 
+        </p>
+        <p class="btn-default">@Html.ActionLink("Time Management", "Index", "Volunteers")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Volunteer Account</h2>
+        <p>Log in to your personal profile and view your data </p>
+        <p>@Html.ActionLink("Register", "Create", "Volunteers")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Admin Log In</h2>
+        <p>View and modify schedule and manage volunteers</p>
+        <p>@Html.ActionLink("Log In", "Login", "Account")</p>
+    </div>
+</div>
