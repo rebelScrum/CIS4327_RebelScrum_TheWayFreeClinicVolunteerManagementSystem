@@ -74,7 +74,7 @@ namespace FirstIterationVMC.Models
         public string Specialty { get; set; }
     }
 
-    public class VolunteerDBContext : DbContext
+    public class VolunteerDbContext : DbContext
     {
         public DbSet<Volunteer> Volunteer { get; set; }
     }

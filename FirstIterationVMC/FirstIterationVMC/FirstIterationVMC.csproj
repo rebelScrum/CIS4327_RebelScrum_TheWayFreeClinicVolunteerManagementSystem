@@ -175,33 +175,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201511040310333_Initial.cs" />
-    <Compile Include="Migrations\201511040310333_Initial.Designer.cs">
-      <DependentUpon>201511040310333_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511040329502_State.cs" />
-    <Compile Include="Migrations\201511040329502_State.Designer.cs">
-      <DependentUpon>201511040329502_State.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511040450337_DataAnnotation.cs" />
-    <Compile Include="Migrations\201511040450337_DataAnnotation.Designer.cs">
-      <DependentUpon>201511040450337_DataAnnotation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511040501423_DataAnnotations.cs" />
-    <Compile Include="Migrations\201511040501423_DataAnnotations.Designer.cs">
-      <DependentUpon>201511040501423_DataAnnotations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511041552452_DataAnnotation1.cs" />
-    <Compile Include="Migrations\201511041552452_DataAnnotation1.Designer.cs">
-      <DependentUpon>201511041552452_DataAnnotation1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511041611335_Email.cs" />
-    <Compile Include="Migrations\201511041611335_Email.Designer.cs">
-      <DependentUpon>201511041611335_Email.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201511041641219_DataAnnotation11.cs" />
-    <Compile Include="Migrations\201511041641219_DataAnnotation11.Designer.cs">
-      <DependentUpon>201511041641219_DataAnnotation11.cs</DependentUpon>
+    <Compile Include="Migrations\201511080515140_Seed.cs" />
+    <Compile Include="Migrations\201511080515140_Seed.Designer.cs">
+      <DependentUpon>201511080515140_Seed.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -287,26 +263,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201511040310333_Initial.resx">
-      <DependentUpon>201511040310333_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511040329502_State.resx">
-      <DependentUpon>201511040329502_State.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511040450337_DataAnnotation.resx">
-      <DependentUpon>201511040450337_DataAnnotation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511040501423_DataAnnotations.resx">
-      <DependentUpon>201511040501423_DataAnnotations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511041552452_DataAnnotation1.resx">
-      <DependentUpon>201511041552452_DataAnnotation1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511041611335_Email.resx">
-      <DependentUpon>201511041611335_Email.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201511041641219_DataAnnotation11.resx">
-      <DependentUpon>201511041641219_DataAnnotation11.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201511080515140_Seed.resx">
+      <DependentUpon>201511080515140_Seed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

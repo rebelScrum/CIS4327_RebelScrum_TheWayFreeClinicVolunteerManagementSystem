@@ -6,14 +6,14 @@ namespace FirstIterationVMC.Migrations
     using System.Linq;
     using FirstIterationVMC.Models;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FirstIterationVMC.Models.VolunteerDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FirstIterationVMC.Models.VolunteerDbContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(FirstIterationVMC.Models.VolunteerDBContext context)
+        protected override void Seed(FirstIterationVMC.Models.VolunteerDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -78,6 +78,7 @@ namespace FirstIterationVMC.Migrations
                     Specialty = "Nurse"
                 }
                 );
+
         }
     }
 }
