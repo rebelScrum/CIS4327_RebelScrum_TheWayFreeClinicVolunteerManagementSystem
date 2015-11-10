@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace FirstIterationVMC.Controllers
 {
-    [AllowAnonymous]
+   // [AllowAnonymous]
     public class HomeController : Controller
     {
         public ActionResult Index()

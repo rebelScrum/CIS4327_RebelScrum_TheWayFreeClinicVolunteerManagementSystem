@@ -21,7 +21,7 @@ namespace FirstIterationVMC.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("defaultconn", throwIfV1Schema: false)
         {
         }
 
