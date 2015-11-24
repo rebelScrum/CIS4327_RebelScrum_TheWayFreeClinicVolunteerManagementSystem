@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FirstIterationVMC.Models
 {
