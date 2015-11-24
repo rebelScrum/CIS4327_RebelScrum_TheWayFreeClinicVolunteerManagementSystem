@@ -231,6 +231,11 @@ namespace FirstIterationVMC.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult Profiles()
+        {
+            return View();
+        }
     }
 }
 

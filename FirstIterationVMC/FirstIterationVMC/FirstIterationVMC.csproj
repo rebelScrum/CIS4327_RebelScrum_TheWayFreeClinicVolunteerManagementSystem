@@ -185,6 +185,12 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\Check In Alert - David Iya.png" />
+    <Content Include="Content\img\Check In Page - David Iya.png" />
+    <Content Include="Content\img\Manage Volunteers - Admin Create Volunteer.png" />
+    <Content Include="Content\img\Manage Volunteers - Admin Dashboard by Christopher Small.png" />
+    <Content Include="Content\img\Splash Page and Login by David P.png" />
+    <Content Include="Content\img\Volunteer Profile - Home by Semenchuk Nadiia.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -244,6 +250,7 @@
     <Content Include="Views\Volunteers\Details.cshtml" />
     <Content Include="Views\Volunteers\Edit.cshtml" />
     <Content Include="Views\Volunteers\Index.cshtml" />
+    <Content Include="Views\Volunteers\Profiles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
